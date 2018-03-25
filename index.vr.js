@@ -6,7 +6,7 @@ const places = [
   {
     title: 'Banlieue',
     image: 'bobigny_allende.jpg',
-    lead: 'Bobigny - wschodnie przedmieścia Paryża, "miasta świateł". Nieprzypadkowo robotnicze skupiska znajdują się na wschód od wielkich europejskich metropolii. Fabryki lokowano właśnie tu, żeby wiatr nie zdmuchiwał oparów przemysłowych do centrum. Smród mieli wdychać robotnicy.'
+    lead: 'Bobigny - wschodnie przedmieścia Paryża, "miasta świateł". Nieprzypadkowo robotnicze skupiska znajdują się na wschód od wielkich europejskich metropolii. Fabryki lokowano właśnie tu, żeby wiejący z zachodu wiatr nie zdmuchiwał wyziewów fabrycznych do centrum. Opary wdychać mieli robotnicy.'
   },
   {
     title: 'Nowi przybysze',
@@ -14,9 +14,9 @@ const places = [
     lead: 'Na początku XX wieku Francja, w wyniku industrializacji, potrzebuje taniej siły roboczej. Do banlieue sprowadzają się nowi mieszkańcy, głównie z Włoch, Hiszpanii i Polski. W międzywojniu paryskie przedmieścia są już bastionem ruchów pracowniczych, przez co zyskują sobie nowy przydomek - "czerwone banlieue".'
   },
   {
-    title: 'Trzy dekady',
+    title: 'Cudowne lata',
     image: 'bondy_moulin.jpg',
-    lead: 'Zniszczona wojną Europa potrzebuje rąk do pracy. Rozpoczyna się epoka nazywana przez Francuzów "trzydziestoma chwalebnymi latami" (les trente glorieuses, 1945-1975). Trwa dekolonizacja - na kontynent, w poszukiwaniu pracy, pielgrzymują imigranci z dawnych kolonii w Afryce i na Karaibach. Europa nie ma gdzie ich upchnąć. Zaczyna się szalone betonowanie przedmieść.'
+    lead: 'Zniszczona wojną Europa potrzebuje rąk do pracy. Rozpoczyna się epoka nazywana przez Francuzów "trzydziestoma wspaniałymi latami" (les trente glorieuses, 1945-1975). Trwa dekolonizacja - na kontynent, w poszukiwaniu pracy, pielgrzymują imigranci z dawnych kolonii w Afryce i na Karaibach. Europa nie ma gdzie ich upchnąć. Zaczyna się szalone betonowanie przedmieść.'
   },
   {
     title: 'Granica',
@@ -31,7 +31,7 @@ const places = [
   {
     title: 'Wyklęci',
     image: 'chanteloup_les_vignes_station.jpg',
-    lead: 'Z bloków w centrum Chanteloup-les-Vignes łypią na mieszkańców wielkie murale z podobiznami "poetów wyklętych" - Paula Valery, Artura Rimbaud i Charlesa Baudelaire\'a. Miały symbolizować aspiracje kulturowe dla kolejnych generacji imigrantów. Stały się raczej smutnym symbolem władzy.'
+    lead: 'Z bloków w centrum Chanteloup-les-Vignes łypią na mieszkańców wielkie murale z podobiznami "poetów wyklętych" - Paula Valery\'ego, Artura Rimbauda i Charlesa Baudelaire\'a. Miały symbolizować aspiracje kulturowe dla kolejnych generacji imigrantów. Stały się raczej smutnym symbolem władzy.'
   },
   {
     title: 'Domy z betonu',
@@ -46,7 +46,7 @@ const places = [
   {
     title: 'Dom?',
     image: 'clichy_sous_bois_balzac.jpg',
-    lead: 'Z początku większość nowoprzybyłych imigrantów z dawnych kolonii zamieszkiwała slumsy. Mieli zostać tu tylko na chwilę, lecz wielu z nich nigdy nie powróciło do swoich domów. Slumsy zburzono, a dawnych mieszkańców przeniesiono na podmiejskie osiedla. Oto ich dzieci i wnuki.'
+    lead: 'Z początku większość nowoprzybyłych imigrantów z dawnych kolonii zamieszkiwała slumsy. Mieli zostać tu tylko na chwilę, lecz wielu z nich nigdy nie powróciło do swoich domów. Slumsy zburzono, a dawnych mieszkańców przeniesiono na podmiejskie osiedla. Oto ich dzieci i wnuki -->'
   }
 ]
 
@@ -57,7 +57,7 @@ class Banlieue extends Component {
     this.state = {
       showMenu: false,
       place: 'bobigny_allende.jpg',
-      lead: 'Bobigny - wschodnie przedmieścia Paryża, "miasta świateł". Nieprzypadkowo robotnicze skupiska znajdują się na wschód od wielkich europejskich metropolii. Fabryki lokowano właśnie tu, żeby wiatr nie zdmuchiwał oparów przemysłowych do centrum. Smród mieli wdychać robotnicy.'
+      lead: 'Bobigny - wschodnie przedmieścia Paryża, "miasta świateł". Nieprzypadkowo robotnicze skupiska znajdują się na wschód od wielkich europejskich metropolii. Fabryki lokowano właśnie tu, żeby wiejący z zachodu wiatr nie zdmuchiwał wyziewów fabrycznych do centrum. Opary wdychać mieli robotnicy.'
     }
   }
 
